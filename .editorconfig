@@ -1,0 +1,3 @@
+[*.{cs,vb}]
+dotnet_diagnostic.CS8785.severity = error # Do not hide root cause for: Generator 'xxx' failed to generate source. It will not contribute to the output and compilation errors may occur as a result. Exception was of type 'xxx' with message 'xxx'
+
